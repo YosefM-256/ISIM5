@@ -1,0 +1,154 @@
+Circuit: ** ISIM 5 - circuit **
+
+Direct Newton iteration for .op point skipped.
+Gmin stepping method for .op point skipped.
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 51.5625%
+Source Step = 51.7637%
+Source Step = 51.7933%
+Source Step = 51.8229%
+Source Step = 51.8525%
+Source Step = 51.8821%
+Source Step = 51.9117%
+vernier = 0.00146484
+Source Step = 51.9428%
+Source Step = 51.9872%
+Source Step = 52.0315%
+Source Step = 52.0759%
+Source Step = 52.1203%
+Source Step = 52.1647%
+vernier = 0.00219727
+Source Step = 52.2313%
+Source Step = 52.2979%
+Source Step = 52.3645%
+Source Step = 52.431%
+Source Step = 52.4976%
+vernier = 0.0032959
+Source Step = 52.5942%
+Source Step = 52.6941%
+Source Step = 52.7939%
+Source Step = 52.8938%
+Source Step = 52.9937%
+vernier = 0.00494385
+Source Step = 53.1335%
+Source Step = 53.2833%
+Source Step = 53.4331%
+Source Step = 53.5829%
+Source Step = 53.7328%
+vernier = 0.00741577
+Source Step = 53.935%
+Source Step = 54.1597%
+Source Step = 54.3845%
+Source Step = 54.6092%
+Source Step = 54.8339%
+vernier = 0.0111237
+Source Step = 55.126%
+Source Step = 55.4631%
+Source Step = 55.8002%
+Source Step = 56.1373%
+Source Step = 56.4744%
+vernier = 0.0166855
+Source Step = 56.8957%
+Source Step = 57.4013%
+Source Step = 57.9069%
+Source Step = 58.4126%
+Source Step = 58.9182%
+vernier = 0.0250282
+Source Step = 59.5249%
+Source Step = 60.2834%
+Source Step = 61.0418%
+Source Step = 61.8002%
+Source Step = 62.5587%
+vernier = 0.0375423
+Source Step = 63.4308%
+Source Step = 64.5685%
+Source Step = 65.7061%
+Source Step = 66.8438%
+Source Step = 67.9814%
+vernier = 0.0563135
+Source Step = 69.2328%
+Source Step = 70.9393%
+Source Step = 72.6458%
+Source Step = 74.3523%
+Source Step = 76.0587%
+vernier = 0.0844703
+Source Step = 77.8505%
+Source Step = 80.4102%
+Source Step = 82.9699%
+Source Step = 85.5296%
+Source Step = 88.0893%
+Source Step = 90.649%
+vernier = 0.126705
+Source Step = 94.4886%
+Source Step = 98.3282%
+Source stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u2:p      d:u2:ln     d:u2:lp     d:u2:e      d:u2:c
+Model:    u2:dx       u2:dx       u2:dx       u2:dx       u2:dx
+Id:     -1.70e-11   -2.82e-11   -2.18e-11   -1.25e-11   -8.01e-14
+Vd:     -1.70e+01   -2.82e+01   -2.18e+01   -1.25e+01   -7.93e-02
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    9.99e+11
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u4:p      d:u4:ln     d:u4:lp     d:u4:e      d:u4:c
+Model:    u4:dx       u4:dx       u4:dx       u4:dx       u4:dx
+Id:     -1.70e-11   -2.47e-11   -2.53e-11   -6.71e-12   -5.90e-12
+Vd:     -1.70e+01   -2.47e+01   -2.53e+01   -6.71e+00   -5.89e+00
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:          qq2                qq11                 qq3                  qdut
+Model:  qbd135__bjt_npn__1 qbd135__bjt_npn__1 q2n3906/on__bjt_pnp__1 2n3906__bjt_pnp__1
+Ib:          3.17e-03          -9.04e-12            -2.95e-04            -3.00e-02
+Ic:          3.27e-01           8.22e-12            -2.94e-02            -3.00e-01
+Vbe:         8.17e-01          -7.93e-01            -7.93e-01            -1.20e+00
+Vbc:        -2.28e+00          -8.09e+00             3.91e+00            -3.74e-01
+Vce:         3.10e+00           7.30e+00            -4.70e+00            -8.27e-01
+BetaDC:      1.03e+02          -9.09e-01             9.98e+01             1.00e+01
+Gm:          1.09e+01           6.82e-26             6.24e-01             6.79e+00
+Rpi:         8.07e+00           1.00e+12             1.23e+02             2.46e+00
+Rx:          5.00e-01           5.00e-01             6.45e+00             1.00e+01
+Ro:          6.79e+02           1.33e+29             4.73e+03             1.47e+00
+Cbe:         1.15e-08           9.63e-11             5.65e-10             1.12e-08
+Cbc:         1.51e-11           9.21e-12             3.19e-12             1.25e-07
+Cjs:         0.00e+00           0.00e+00             0.00e+00             0.00e+00
+BetaAC:      8.82e+01           6.82e-14             7.67e+01             1.67e+01
+Cbx:         0.00e+00           0.00e+00             3.55e-13             0.00e+00
+Ft:          1.51e+08           1.51e-03             1.75e+08             7.91e+06
+
+                        --- JFET Transistors ---
+Name:    j:u2:2      j:u2:1      j:u4:2      j:u4:1
+Model:    u2:jx       u2:jx       u4:jx       u4:jx
+Id:     -9.72e-05   -9.72e-05   -9.83e-05   -9.82e-05
+Vgs:     4.00e-01    4.00e-01    3.97e-01    3.97e-01
+Vds:    -8.71e+00   -8.71e+00   -6.60e+00   -6.60e+00
+Gm:      3.24e-04    3.24e-04    3.26e-04    3.26e-04
+Gds:     0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:     0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:     0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+
+
+Date: Tue May 23 13:04:56 2023
+Total elapsed time: 0.489 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 2886
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 124
+fillins = 327
+solver = Normal
+Thread vector: 11.3/7.9[2] 0.0/0.0[0] 2.6/2.9[1] 0.8/1.4[1]  2592/500
+Matrix Compiler1: 29.55 KB object code size
+Matrix Compiler2: 15.41 KB object code size  2.2/2.7/[1.8]
+
